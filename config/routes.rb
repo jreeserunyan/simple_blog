@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   # get 'user/new'
   # get 'user/show'
 
-  root "users#index"
+  root "posts#index"
 end
