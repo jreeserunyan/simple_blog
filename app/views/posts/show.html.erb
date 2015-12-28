@@ -1,0 +1,10 @@
+<h1>Posts#show</h1>
+
+<p id="notice"><%= notice %></p>
+
+<h4><b>Title: </b><%= @post.title %></h4>
+<p><b>Body: </b><%= @post.body %></p>
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Index', posts_path %>

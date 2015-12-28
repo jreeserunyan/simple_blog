@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+
+@import "materialize/extras/nouislider";
+body {
+	  background-color: #FAFAFA;
+}
+.quick_nav {
+	line-height: 20px;
+}
+
+/*Link styles*/
+a:link { color: #F26C4F; }
+a:visited { color: #26a69a; }
+a:hover { color: #F26C4F; }
+a:active { color: #9CC4E4 }
+
+/*
+.wrapper {
+  background-color: #FAFAFA;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow:auto;
+  padding-bottom: 0px;
+  min-height: 100%; 
+  width: 100%;
+}  */
+
+
+
+.container {
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  padding: 5%;
+  padding-top: 0;
+/*	border: 1pt #E9F2F9;*/
+}
+
+.group-list li {
+  font-size: 1.5em;
+  list-style: square;
+  margin-left: 2em;
+}
+
+.listed_posts {
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	margin: 20px;
+	padding: 20px;
+		border: 1pt dotted #E9F2F9;
+		/*box-shadow: 10px;*/
+}
+
+.post_links {
+	  margin: 0 auto;
+	  text-align: center;
+	/*background-color: gray;*/
+	border-radius: 5px;
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
